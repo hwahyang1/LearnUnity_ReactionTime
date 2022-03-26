@@ -18,7 +18,6 @@ public class GameManager : MonoBehaviour
 	private Color defaultColor = new Color(0.8066038f, 0.9113393f, 1f);
 
 	private string defaultMessage = "화면을 클릭해 반응속도를 테스트해보세요!\n(총 5번 시행하여 평균값을 출력합니다.)";
-
 	private void Start()
 	{
 		message.text = defaultMessage;
