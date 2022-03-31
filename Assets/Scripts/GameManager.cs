@@ -42,8 +42,7 @@ public class GameManager : MonoBehaviour
 	private string messageFinish = "최종 결과: <color=#FFFFAE>{0:F2}ms</color>\n화면을 클릭하여 측정을 다시 할 수 있어요.";
 
 	private int currentRound = 1;
-	[SerializeField] // outlet connection
-	private int maxRound;
+	[SerializeField] private int maxRound = 5; // outlet connection
 
 	private float changeWait = 0f; // 화면 전환까지 소요될 시간
 	private float elapsedTime = 0f;
